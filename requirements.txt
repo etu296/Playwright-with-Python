@@ -1,0 +1,17 @@
+# Core testing framework
+pytest==8.3.3
+
+# Playwright for browser automation (sync + async API)
+playwright==1.49.0
+
+# Plugin to integrate Playwright with pytest (provides fixtures like "page")
+pytest-playwright==0.5.0
+
+# HTML reporting for pytest
+pytest-html==4.1.1
+
+# Allure for advanced interactive reports 
+allure-pytest==2.13.5
+
+# For attaching screenshots or logs (optional utility)
+pytest-metadata==3.1.1
